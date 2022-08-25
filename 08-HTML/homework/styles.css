@@ -1,17 +1,34 @@
 #thirdDiv {
     height: 600px;
     width: 500px;
-    background-color: aquamarine;
     padding: 50px;
-    border: 1px dotted black
+    background-color: aquamarine;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+   
 }
 #spanId {
     font-size: 18px;
     margin: 50px;
+    text-align: center;
 }
 img {
-    width: 400px;
+    width: 350px;
 }
 h1 {
     color:aquamarine;
+}
+.divClass{
+    text-align: center;
+    background-color: black;
+    color: white;
+}
+body {
+    background-image: url("https://c.tenor.com/CdYtQ2sEPOkAAAAi/neco-arc-neco.gif");
+    background-color: deepskyblue;
+}
+
+#aId {
+    display: block;
 }
